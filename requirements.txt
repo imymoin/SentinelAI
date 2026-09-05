@@ -19,3 +19,7 @@ pypdf
 pytest
 pytest-asyncio
 httpx
+
+streamlit
+requests
+python-dotenv
