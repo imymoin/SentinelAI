@@ -1,0 +1,9 @@
+model_list:
+
+  - model_name: sentinel-primary
+    litellm_params:
+      model: groq/openai/gpt-oss-120b
+      api_key: os.environ/GROQ_API_KEY
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
